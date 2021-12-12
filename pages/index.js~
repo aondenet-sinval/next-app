@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import React from 'react'
-
+import Badge from 'react-bootstrap/Badge'
 
 export default function Home() {
   return (
@@ -18,7 +18,7 @@ export default function Home() {
 			<h1 className="title">
 			  Ir para{' '}
 			  <Link href="/pages/contato">
-			    <a>Contato</a>
+			    <a><Badge>Contato</Badge></a>
 			  </Link>
 			</h1>
 
