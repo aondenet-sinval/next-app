@@ -46,18 +46,7 @@ export default function Home() {
 					<Fotos />  
 				</div>    
 		</main>
-		<footer className={styles.footer}>
-				<a
-				href="https://www.aondenet.com"
-				target="_blank"
-				rel="noopener noreferrer"
-				>
-				Website in developers by{' '}
-				<span className={styles.logo}>
-				<Image src="/logoaondenet.ico" alt="Aondenet Logo" width={72} height={16} />
-				</span>
-				</a>
-		</footer>
+
 		</div>
   )
 }

@@ -24,7 +24,7 @@ export default function Home() {
 
 		<main className={styles.main}>
 			{/*Menu do topo da página*/}
-			<Menutop />
+			{/*<Menutop />*/}
 			{/*offfcanvas start*/}
 			<ExampleCanvas />			
 			{/*offfcanvas start*/}
@@ -47,7 +47,6 @@ export default function Home() {
 				</div>    
 		</main>
 		<footer className={styles.footer}>
-		<Menubottom />
 				<a
 				href="https://www.aondenet.com"
 				target="_blank"
