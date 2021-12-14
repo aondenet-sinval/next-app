@@ -3,8 +3,8 @@ import Table  from 'react-bootstrap/Table'
 
 const TabelaPreco = () => {
 			return<>
-<table className="table">
-<thead id={"tabela-preco"}>
+<table id={"tabela-preco"} className="table">
+<thead>
 Tabela de preços:
 </thead>
 <tbody>

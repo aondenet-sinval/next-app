@@ -53,4 +53,4 @@ const Menubottom = () => {
 			</>
 }		
 
-export {Menutop, Menubottom};
+export { Menutop, Menubottom };

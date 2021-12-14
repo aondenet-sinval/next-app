@@ -15,10 +15,6 @@ Tabela de preços:
 			</>
 }	
 
-const TabelaMaisVendidos = () => {
-			return<>
-   
-			</>
-}		
+	
 
-export { TabelaPreco, TabelaMaisVendidos};
+export default TabelaPreco;
