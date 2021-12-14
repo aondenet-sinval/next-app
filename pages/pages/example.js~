@@ -22,18 +22,18 @@ export default function ExampleCanvas() {
 			          <Offcanvas.Title>Offcanvas</Offcanvas.Title>
 			        </Offcanvas.Header>
 			        <Offcanvas.Body>
-							<h3 className="title">
+							<h1 className="title">
 							  Ir para{' '}
 							  <Link href="/pages/contato">
 							    <a>Contato</a>
 							  </Link>
-							</h3>
-							<h3 className="title">
+							</h1>
+							<h1 className="title">
 							  Ir para{' '}
 							  <Link href="/pages/caroussel">
 							    <a>Carrossel</a>
 							  </Link>
-							</h3>
+							</h1>
 			        </Offcanvas.Body>
 			      </Offcanvas>
 		</>

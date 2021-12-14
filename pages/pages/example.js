@@ -14,7 +14,7 @@ export default function ExampleCanvas() {
 
 		return<>
 				   <Button variant="primary" onClick={handleShow}>
-			        Launch
+			        Links
 			      </Button>
 			
 			      <Offcanvas show={show} onHide={handleClose}>
