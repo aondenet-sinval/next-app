@@ -23,9 +23,6 @@ export default function Home() {
       </Head>
 
 		<main className={styles.main}>
-			{/*Menu do topo da página*/}
-			{/*<Menutop />*/}
-			{/*offfcanvas start*/}
 			<ExampleCanvas />			
 			{/*offfcanvas start*/}
 				<p className={styles.description}>
@@ -43,21 +40,14 @@ export default function Home() {
 						<p>Veja outros projetos.</p>
 					</a>
 					{/*Component fotos*/}
-					<Fotos />  
+					<Fotos />
+					<Script
+  src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"
+  strategy="beforeInteractive"
+/>  
 				</div>    
 		</main>
-		<footer className={styles.footer}>
-				<a
-				href="https://www.aondenet.com"
-				target="_blank"
-				rel="noopener noreferrer"
-				>
-				Website in developers by{' '}
-				<span className={styles.logo}>
-				<Image src="/logoaondenet.ico" alt="Aondenet Logo" width={72} height={16} />
-				</span>
-				</a>
-		</footer>
+
 		</div>
   )
 }

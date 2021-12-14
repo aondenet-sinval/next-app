@@ -23,9 +23,6 @@ export default function Home() {
       </Head>
 
 		<main className={styles.main}>
-			{/*Menu do topo da página*/}
-			{/*<Menutop />*/}
-			{/*offfcanvas start*/}
 			<ExampleCanvas />			
 			{/*offfcanvas start*/}
 				<p className={styles.description}>
@@ -43,7 +40,7 @@ export default function Home() {
 						<p>Veja outros projetos.</p>
 					</a>
 					{/*Component fotos*/}
-					<Fotos />  
+					<Fotos />
 				</div>    
 		</main>
 

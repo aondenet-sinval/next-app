@@ -15,7 +15,7 @@ const NavigBar = () => {
 				        <a className="nav-link" href="#">Home <span className="sr-only">(página atual)</span></a>
 				      </li>
 				      <li className="nav-item">
-				        <a className="nav-link" href="#">Desativado</a>
+				        <a className="nav-link disabled" href="#">Desativado</a>
 				      </li>
 				      <li className="nav-item">
 				        <a className="nav-link disabled" href="#">Desativado</a>
