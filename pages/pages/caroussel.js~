@@ -24,7 +24,7 @@ export default function Caroussel() {
 			      </div>
 					<Carousel>
 					  <Carousel.Item>
-					    <Image
+					    <img
 					      className="d-block w-100"
 					      src="/images/img7.jpg"
 					      layout="fill"
@@ -36,7 +36,7 @@ export default function Caroussel() {
 					    </Carousel.Caption>
 					  </Carousel.Item>
 					  <Carousel.Item>
-					    <Image
+					    <img
 					      className="d-block w-100"
 					      src="/images/img8.jpg"
 					      layout="fill"

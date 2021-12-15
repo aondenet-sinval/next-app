@@ -9,10 +9,10 @@ export default function Footer(){
 							target="_blank"
 							rel="noopener noreferrer"
 							>
-							Website in developers by{' '}
-							<span className={styles.logo}>
-							<Image src="/logoaondenet.ico" alt="Aondenet Logo" width={72} height={16} />
-							</span>
+								Website in developers by{' '}
+								<span className={styles.logo}>
+									<Image src="/logoaondenet.ico" alt="Aondenet Logo" width={72} height={16} />
+								</span>
 							</a>
 				</footer>
 }

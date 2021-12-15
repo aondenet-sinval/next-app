@@ -4,9 +4,10 @@ import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import * as React from 'react'
 import Script from 'next/script'
-import ExampleCanvas from './pages/example.js'
+import ExampleCanvas from '../components/example.js'
 import Fotos from './components/fotos.js'
-import { Menutop, Menubottom } from './pages/menutop.js'
+import Jumbo from './components/jumbo'
+import TabelaPreco from './components/tabelas.js'
 import {
 	Container, NavBar, Nav,
 	Button, Row, Col } from 'react-bootstrap/';
@@ -23,16 +24,12 @@ export default function Home() {
       </Head>
 
 		<main className={styles.main}>
-			<ExampleCanvas />			
-			{/*offfcanvas start*/}
-				<p className={styles.description}>
-				  Essa ser&aacute; a p&aacute;gina inicial{' '}
-				</p>
 				<div className={styles.grid}>
-					<a href="https://github.com/aondenet-sinval" 
+					<a href="https://github.com/aondenet-sinval/next-app" 
 						className={styles.card}>
 						<h2>Deploy</h2>
 						<p>Essa API &eacute; apenas para treinamento.</p>
+						<p>Clicando aqui você irá para o c&oacute;digo fonte.</p>
 					</a>
 					<a	href="https://github.com/aondenet-sinval"
 						className={styles.card}>
@@ -41,7 +38,10 @@ export default function Home() {
 					</a>
 					{/*Component fotos*/}
 					<Fotos />
-				</div>    
+					<Jumbo />
+					<TabelaPreco />
+				</div> 
+				<ExampleCanvas />	   
 		</main>
 
 		</div>

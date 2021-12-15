@@ -26,12 +26,7 @@ export default function Contato() {
         <title>Contato</title>
       </Head>
       <div className="container">
-      <h1>Contato</h1>
-      <ul><li>
-        <Link href="/">
-          <a><Button className="badge">Voltar para home</Button></a>
-        </Link>
-      </li></ul>
+	      <h1>Contato</h1>
       </div>
 		<Container>
 	    <Form noValidate validated={validated} onSubmit={handleSubmit} className="sr-only sr-only-focusable">
