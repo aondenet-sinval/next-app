@@ -1,3 +1,4 @@
+import '../styles/w3.css'
 import '../styles/globals.css'
 import '../styles/Home.module.css'
 import Styles from '../styles/teste.css'

@@ -8,9 +8,11 @@ import ExampleCanvas from '../components/example.js'
 import Fotos from './components/fotos.js'
 import Jumbo from './components/jumbo'
 import TabelaPreco from './components/tabelas.js'
+import Slidshow from './components/slidshow.js'
+import Progbar from './components/progbar.js'
 import {
 	Container, NavBar, Nav,
-	Button, Row, Col } from 'react-bootstrap/';
+	Button, Row, Col, ProgressBar } from 'react-bootstrap/';
 
 
 
@@ -40,6 +42,7 @@ export default function Home() {
 					<Fotos />
 					<Jumbo />
 					<TabelaPreco />
+					<Slidshow />
 				</div> 
 				<ExampleCanvas />	   
 		</main>

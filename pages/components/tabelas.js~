@@ -1,20 +1,28 @@
-import * as React from 'react'
+import React from 'react'
 import Table  from 'react-bootstrap/Table'
 
-const TabelaPreco = () => {
+const Tabelapreco = () => {
 			return<>
-						<table id={"tabela-preco"} className="table">
-						<thead>
-						Tabela de preços:
-						</thead>
-						<tbody>
-						<tr><td>Nome</td><td>Descri&ccedil;&atilde;o</td><td>Moeda</td><td>Pre&ccedil;o</td></tr>
-						<tr><td>Camisa</td><td>Polo Masculina</td><td>BRL</td><td>80,00</td></tr>
-						</tbody>
+						<h3>Tabela de preços:</h3>
+						<table  className="w3-table w3-hoverable w3-bordered w3-striped">
+							<thead className="w3-border-top">
+								<th>Nome</th>
+								<th>Descrição</th>
+								<th>Moeda</th>
+								<th>Preço</th>
+							</thead>
+							<tbody>
+								<tr><td>Camisa</td><td>Polo Masculina</td><td>BRL</td><td>80,00</td></tr>
+								<tr><td className="w3-code">
+							
+								</td></tr>
+							</tbody>
 						</table>
+				
+	
 					</>
 }	
 
 	
 
-export default TabelaPreco;
+export default Tabelapreco;

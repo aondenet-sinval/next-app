@@ -4,6 +4,7 @@ import Layout from '../../components/layout'
 import Image from 'next/image'
 import Script from 'next/script'
 import React from 'react'
+import Slidshow from '../components/slidshow.js'
 import {
 	Button, Row, Col, Form, FloatingLabel, Container } from 'react-bootstrap/';
 import { useState } from 'react';
@@ -26,7 +27,7 @@ export default function Contato() {
         <title>Contato</title>
       </Head>
       <div className="container">
-      <h1>Contato</h1>
+	      <h1>Contato</h1>
       </div>
 		<Container>
 	    <Form noValidate validated={validated} onSubmit={handleSubmit} className="sr-only sr-only-focusable">
@@ -91,6 +92,7 @@ export default function Contato() {
 	      </Row>
 	      <Button type="submit">Enviar Pedido</Button>
 	    </Form>
+	
 	    </Container>        
     </>
   )
