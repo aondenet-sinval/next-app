@@ -1,5 +1,5 @@
 import React from 'react'
-import './css/tab.module.css'
+import './css/def.module.css'
 import Tabs from 'react-bootstrap/Tabs'
 import Tab from 'react-bootstrap/Tab'
 

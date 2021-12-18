@@ -9,7 +9,8 @@ import Fotos from './components/fotos.js'
 import Jumbo from './components/jumbo'
 import Taber from './components/tab.js'
 import Slidshow from './components/slidshow.js'
-import Progbar from './components/progbar.js'
+import ProgBar from './components/progbar.js'
+import SSRProvider from 'react-bootstrap/SSRProvider'
 import {
 	Container, NavBar, Nav,
 	Button, Row, Col, ProgressBar } from 'react-bootstrap/'
@@ -42,8 +43,10 @@ export default function Home() {
 					<Fotos />
 					<Jumbo />
 					<Slidshow />
-					<Taber />
-				</div> 
+					
+					<SSRProvider><Taber /></SSRProvider>
+				</div>
+				<ProgBar /> 
 				<ExampleCanvas />	   
 		</main>
 

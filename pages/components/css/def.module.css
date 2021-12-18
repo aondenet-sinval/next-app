@@ -1,4 +1,4 @@
-
+/*SlidShow*/
 .slider {
   width: 300px;
   text-align: center;
@@ -92,3 +92,6 @@
     display: block;
   }
 }
+
+/*Tabs*/
+.tabs-react{ display: 'block'; width: 700; padding: 30; }
