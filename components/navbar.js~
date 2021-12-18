@@ -1,15 +1,16 @@
-import * as React from 'react'
-import Nav  from 'react-bootstrap/Nav'
+import React from 'react'
 import Link from 'next/link'
 
 const NavigBar = () => {
 			return<>
-				<Nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+				<nav className="navbar navbar-expand-lg navbar-light bg-light  position-static">
 				  <a className="navbar-brand" href="#">Navbar</a>
-				  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+				  <button className="navbar-toggler" type="button" data-toggle="collapse" 
+					  data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" 
+					  aria-expanded="false" aria-label="Alterna navegação"
+				  >
 				    <span className="navbar-toggler-icon"></span>
-				  </button>
-				
+				  </button>				
 				  <div className="collapse navbar-collapse" id="conteudoNavbarSuportado">
 				    <ul className="navbar-nav mr-auto">
 				      <li className="nav-item active">
@@ -23,12 +24,13 @@ const NavigBar = () => {
 							  </Link>
 				      </li>
 				      <li className="nav-item">
-				        <a className="nav-link disabled" href="#">Desativado</a>
+  							  <Link href="/pages/contato">
+							    <a  className="nav-link">Contato</a>
+							  </Link>
 				      </li>
 				    </ul>
 				  </div>
-				</Nav>
-   
+				</nav>  
 			</>
 }	
 

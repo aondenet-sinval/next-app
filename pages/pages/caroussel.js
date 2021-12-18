@@ -10,7 +10,7 @@ import {
 
 
 export default function Caroussel() {
-	return <div>	 
+	return <div className="layout-mod">	 
 			      <Head>             
 			        <title>Caroussel</title>
 			      </Head>

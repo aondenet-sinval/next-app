@@ -10,7 +10,7 @@ const Taber = () => {
 	return<>
     <div>
       <h4>Componente Tab(aba) desenvolvida com  React-Bootstrap</h4>
-      <Tabs defaultActiveKey="second"  id="tabss">
+      <Tabs defaultActiveKey="second"  id="tabss" className="tabs-react">
         <Tab eventKey="first" title="TAB1">
           Lorem ipsum dolor sit amet, consecteteur adipiscing. Lacus. Ipsum. Hac ornare et, conubia eros, quis cursus. Tincidunt. Per, tempor ligula porta vivamus eni, ante.  
 

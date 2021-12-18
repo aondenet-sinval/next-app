@@ -15,12 +15,7 @@ export default function Caroussel() {
 			        <title>Caroussel</title>
 			      </Head>
 			      <div className="container">
-			      <h1>Caroussel</h1>
-			      <ul><li>
-			        <Link href="/">
-			          <a><Button className="badge">Voltar para home</Button></a>
-			        </Link>
-			      </li></ul>
+				      <h1>Caroussel</h1>
 			      </div>
 					<Carousel>
 					  <Carousel.Item>

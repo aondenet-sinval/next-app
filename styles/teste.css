@@ -1,4 +1,6 @@
-
+.layout-mod {
+  padding-top: 30px;
+}
 /*offcanvas menu*/
 .sidenav {
   height: 100%; /* 100% Full-height */
