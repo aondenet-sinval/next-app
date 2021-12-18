@@ -7,12 +7,12 @@ import Script from 'next/script'
 import ExampleCanvas from '../components/example.js'
 import Fotos from './components/fotos.js'
 import Jumbo from './components/jumbo'
-import TabelaPreco from './components/tabelas.js'
+import Taber from './components/tab.js'
 import Slidshow from './components/slidshow.js'
 import Progbar from './components/progbar.js'
 import {
 	Container, NavBar, Nav,
-	Button, Row, Col, ProgressBar } from 'react-bootstrap/';
+	Button, Row, Col, ProgressBar } from 'react-bootstrap/'
 
 
 
@@ -41,8 +41,8 @@ export default function Home() {
 					{/*Component fotos*/}
 					<Fotos />
 					<Jumbo />
-					<TabelaPreco />
 					<Slidshow />
+					<Taber />
 				</div> 
 				<ExampleCanvas />	   
 		</main>
