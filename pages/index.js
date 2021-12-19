@@ -42,7 +42,7 @@ export default function Home() {
 								<p className="card-text">Veja outros projetos.</p>
 							</div>
 						</div>
-						{/*Component fotos*/}
+						{/*Components:*/}
 						<Fotos />
 						<Jumbo />
 						<Slidshow />

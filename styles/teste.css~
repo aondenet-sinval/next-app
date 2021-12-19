@@ -1,6 +1,10 @@
 .layout-mod {
   padding-top: 80px;
 }
+/*Navibar personalizada:*/
+.navigbar ul li{
+	display: none;
+}
 /*offcanvas menu*/
 .sidenav {
   height: 100%; /* 100% Full-height */
@@ -16,7 +20,7 @@
 }
 
 /* The navigation menu links */
-.nav-link > a{ text-decoration: none; }
+
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
   transition: margin-left .5s;

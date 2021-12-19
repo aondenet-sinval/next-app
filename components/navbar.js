@@ -1,31 +1,53 @@
 import React from 'react'
 import Link from 'next/link'
-import { Navbar, Nav, NavLink, Container,
-			NavDropdown, Divider } from 'react-bootstrap'
+import Script from 'next/script'
+import Image from 'next/image'
 
 const NavigBar = () => {
 			return<>
-						<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="fixed-top">
-						  <Container>
-								<Nav.Link  href="/">
-								  Home
-								</Nav.Link>  
-						  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-						  <Navbar.Collapse id="responsive-navbar-nav">
-						    <Nav className="me-auto">
-						      <Nav.Link href="/pages/contato">
-								    Contato
-						      </Nav.Link>
-						      <Nav.Link href="/pages/caroussel">
-								    Carrossel
-						      </Nav.Link>
-						      <Nav.Link href="/pages/artigos">
-										Artigos
-						      </Nav.Link>						      
-						    </Nav>
-						  </Navbar.Collapse>
-						  </Container>
-						</Navbar>							
+<nav className="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+  <div className="container-fluid">
+    <Link className="navbar-brand nav-link" href="/">
+	    <Image src="/logoaondenet.png" width={30} height={20} />
+    </Link>
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span className="navbar-toggler-icon"></span>
+    </button>
+    <div className="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul className="navbar-nav">
+        <li className="nav-item">          
+          <Link href="/">
+	          <a className="nav-link">
+		          Home
+	          </a>	          
+          </Link>         
+        </li>
+        <li className="nav-item">       
+          <Link href="/pages/caroussel">
+	          <a className="nav-link">
+		          Carousel
+	          </a>          
+          </Link>
+        </li>
+        <li className="nav-item">        
+          <Link href="/pages/artigos">
+	          <a className="nav-link">
+		          Artigos
+	          </a>	          
+          </Link>
+        </li>
+        <li className="nav-item">               
+          <Link href="/pages/contato">
+	          <a className="nav-link">
+		          Contato
+	          </a>	          
+          </Link>      
+        </li>             
+      </ul>
+    </div>
+  </div>
+</nav>
+ <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" />							
 					</>
 }	
 
