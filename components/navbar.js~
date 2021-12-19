@@ -1,37 +1,38 @@
 import React from 'react'
 import Link from 'next/link'
+import { Navbar, Nav, NavLink, Container,
+			NavDropdown, Divider } from 'react-bootstrap'
 
 const NavigBar = () => {
 			return<>
-				<nav className="navbar navbar-expand-lg navbar-light bg-light  position-static">
-				  <a className="navbar-brand" href="#">Navbar</a>
-				  <button className="navbar-toggler" type="button" data-toggle="collapse" 
-					  data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" 
-					  aria-expanded="false" aria-label="Alterna navegação"
-				  >
-				    <span className="navbar-toggler-icon"></span>
-				  </button>				
-				  <div className="collapse navbar-collapse" id="conteudoNavbarSuportado">
-				    <ul className="navbar-nav mr-auto">
-				      <li className="nav-item active">
-				      <Link  href="/">
-				        <a className="nav-link">Home <span className="sr-only"></span></a>
-				        </Link>
-				      </li>
-				      <li className="nav-item">
-  							  <Link href="/pages/caroussel">
-							    <a  className="nav-link">Carrossel</a>
-							  </Link>
-				      </li>
-				      <li className="nav-item">
-  							  <Link href="/pages/contato">
-							    <a  className="nav-link">Contato</a>
-							  </Link>
-				      </li>
-				    </ul>
-				  </div>
-				</nav>  
-			</>
+						<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="fixed-top">
+						  <Container>
+								<Link  href="/" className="nav-link">
+								  Home
+								</Link>  
+						  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+						  <Navbar.Collapse id="responsive-navbar-nav">
+						    <Nav className="me-auto">
+						      <Nav.Link>
+									<Link href="/pages/contato" className="nav-link">
+								    Contato
+									</Link>
+						      </Nav.Link>
+						      <Nav.Link>
+									<Link href="/pages/caroussel" className="nav-link">
+								    Carrossel
+									</Link>
+						      </Nav.Link>
+						      <Nav.Link>
+									<Link href="/pages/artigos" className="nav-link">
+										Artigos
+									</Link>
+						      </Nav.Link>						      
+						    </Nav>
+						  </Navbar.Collapse>
+						  </Container>
+						</Navbar>							
+					</>
 }	
 
 

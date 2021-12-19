@@ -12,7 +12,7 @@ import Slidshow from './components/slidshow.js'
 import ProgBar from './components/progbar.js'
 import SSRProvider from 'react-bootstrap/SSRProvider'
 import {
-	Container, Card } from 'react-bootstrap/'
+	Container, Row, Col } from 'react-bootstrap/'
 
 
 
@@ -24,7 +24,7 @@ export default function Home() {
 			<link rel="icon" href="/logoaondenet.ico" />
       </Head>
 
-		<main>
+		<main className="layout-mod">
 				<Container>
 			  
 						<div className="d-flex flex-wrap justify-content-start">
