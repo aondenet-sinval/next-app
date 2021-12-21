@@ -11,7 +11,7 @@ export default function Footer(){
 							>
 								Website in developers by{' '}
 								<span className={styles.logo}>
-									<Image src="/logoaondenet.ico" alt="Aondenet Logo" width={72} height={16} />
+									<Image src="/logoaondenet.png" alt="Aondenet Logo" width={30} height={20} />
 								</span>
 							</a>
 				</footer>

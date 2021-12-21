@@ -1,0 +1,4 @@
+.cont{
+	flex-direction: column;
+	max-width: 50%;
+}

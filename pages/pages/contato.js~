@@ -29,7 +29,6 @@ export default function Contato() {
 			      <h1>Contato</h1>
 		      </div>
 				<Container>
-				<SSRProvider>
 			    <Form noValidate validated={validated} onSubmit={handleSubmit} className="sr-only sr-only-focusable">
 			      <Row className="mb-2">
 			        <Form.Group as={Col} md="6" controlId="validationCustom01">
@@ -92,7 +91,6 @@ export default function Contato() {
 			      </Row>
 			      <Button type="submit">Enviar Pedido</Button>
 			    </Form>
-				</SSRProvider>
 			    </Container>        
 		    </div>
   )

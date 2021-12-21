@@ -5,11 +5,13 @@ import Link from 'next/link'
 import * as React from 'react'
 import Script from 'next/script'
 import ExampleCanvas from '../components/example.js'
+import Twocol from '../components/twocol.js'
 import Fotos from './components/fotos.js'
 import Jumbo from './components/jumbo'
 import Taber from './components/tab.js'
 import Slidshow from './components/slidshow.js'
 import ProgBar from './components/progbar.js'
+import Counter from './components/counter.js'
 import SSRProvider from 'react-bootstrap/SSRProvider'
 import {
 	Container, Row, Col } from 'react-bootstrap/'
@@ -42,13 +44,21 @@ export default function Home() {
 								<p className="card-text">Veja outros projetos.</p>
 							</div>
 						</div>
-						{/*Component fotos*/}
+						{/*Components:*/}
 						<Fotos />
 						<Jumbo />
 						<Slidshow />
-						<ProgBar /> 					
+						<div className="wrap">
+							<Twocol>
+								<ProgBar />
+							</Twocol> 					
+							<Twocol>
+								<ProgBar />
+							</Twocol>
+						</div> 					
 						<SSRProvider><Taber /></SSRProvider>
 						<ExampleCanvas />
+						<Counter />
 				</Container>	   
 		</main>
 		</>

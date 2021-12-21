@@ -17,13 +17,13 @@ const Slidshow = () => {
     </Link>
     <div className={styles.slides}>
       <div name="slide-1" id="slide-1">
-        <Image className="p-3" alt="Fotos baixadas do pixabay" src="/images/img1min.jpg" width={300} height={200} />
+        <Image className="p-3" alt="Foto obtida do pixabay" src="/images/img1min.jpg" width={300} height={200} />
       </div>
       <div name="slide-2" id="slide-2">
-        <Image className="p-3" alt="Fotos baixadas do pixabay" src="/images/img2min.jpg" width={300} height={200} />
+        <Image className="p-3" alt="Foto obtida do pixabay" src="/images/img2min.jpg" width={300} height={200} />
       </div>
       <div id="slide-3">
-	      <Image className="p-3" alt="Fotos baixadas do pixabay" src="/images/img3min.jpg" width={300} height={200} />
+	      <Image className="p-3" alt="Foto obtida do pixabay" src="/images/img3min.jpg" width={300} height={200} />
       </div>
 
     </div>

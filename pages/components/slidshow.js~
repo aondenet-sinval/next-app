@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from 'next/image'
 import React from 'react'
-import styles from './css/slidshow.module.css'
+import styles from './css/def.module.css'
 
 
 const Slidshow = () => {

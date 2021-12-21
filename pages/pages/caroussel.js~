@@ -8,7 +8,7 @@ import {
 
 
 export default function Caroussel() {
-	return <div className="layout-mod">	 
+	return <main className="layout-mod">	 
 			      <Head>             
 			        <title>Caroussel</title>
 			      </Head>
@@ -39,5 +39,5 @@ export default function Caroussel() {
 					    </Carousel.Caption>
 					  </Carousel.Item>
 					</Carousel>
-	</div>
+	</main>
 }

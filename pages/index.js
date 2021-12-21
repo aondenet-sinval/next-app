@@ -5,6 +5,7 @@ import Link from 'next/link'
 import * as React from 'react'
 import Script from 'next/script'
 import ExampleCanvas from '../components/example.js'
+import Twocol from '../components/twocol.js'
 import Fotos from './components/fotos.js'
 import Jumbo from './components/jumbo'
 import Taber from './components/tab.js'
@@ -46,7 +47,14 @@ export default function Home() {
 						<Fotos />
 						<Jumbo />
 						<Slidshow />
-						<ProgBar /> 					
+						<div className="wrap">
+							<Twocol>
+								<ProgBar />
+							</Twocol> 					
+							<Twocol>
+								<ProgBar />
+							</Twocol>
+						</div> 					
 						<SSRProvider><Taber /></SSRProvider>
 						<ExampleCanvas />
 				</Container>	   

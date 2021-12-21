@@ -21,13 +21,12 @@ export default function Contato() {
 
     setValidated(true);
   };	
-  return (<div className="layout-mod">   
+  return (<>
 		      <Head>             
 		        <title>Contato</title>
-		      </Head>
-		      <div className="container">
+		      </Head>  
+			  <div className="layout-mod">   
 			      <h1>Contato</h1>
-		      </div>
 				<Container>
 			    <Form noValidate validated={validated} onSubmit={handleSubmit} className="sr-only sr-only-focusable">
 			      <Row className="mb-2">
@@ -93,5 +92,6 @@ export default function Contato() {
 			    </Form>
 			    </Container>        
 		    </div>
+	    </>
   )
 }
