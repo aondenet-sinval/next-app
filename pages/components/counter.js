@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from 'react';
 
 
-
 function Counter() {
     const [count, setCount] = useState(0);
 
-     
+    useEffect(() => { 
+    document.title = `Você clicou ${count} vezes`;  });
     return (
       <div>
-        <p>You clicked <span className="badge bg-dark">{count}</span> times</p>
+        <p>Você clickou <span className="badge bg-primary">{count}</span> vezes</p>
         <button onClick={()=>setCount(count+1)}>Adicionar</button>
         <button onClick={()=>setCount(count-1)}>Remover</button>
       </div>
