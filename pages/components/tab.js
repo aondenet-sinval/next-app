@@ -5,7 +5,7 @@ import Tab from 'react-bootstrap/Tab'
 
 
 
-const Taber = () => {
+const Aba = () => {
 	
 	return<>
     <div>
@@ -26,4 +26,4 @@ const Taber = () => {
     </>
 };
 
-export default Taber;
+export default Aba;

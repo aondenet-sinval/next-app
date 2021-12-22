@@ -2,17 +2,15 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
-import * as React from 'react'
-import Script from 'next/script'
+import React from 'react'
 import ExampleCanvas from '../components/example.js'
 import Twocol from '../components/twocol.js'
 import Fotos from './components/fotos.js'
 import Jumbo from './components/jumbo'
-import Taber from './components/tab.js'
+import Aba from './components/tab'
 import Slidshow from './components/slidshow.js'
 import ProgBar from './components/progbar.js'
-import SSRProvider from 'react-bootstrap/SSRProvider'
-import {
+import { SSRProvider,
 	Container, Row, Col } from 'react-bootstrap/'
 
 
@@ -47,15 +45,9 @@ export default function Home() {
 						<Fotos />
 						<Jumbo />
 						<Slidshow />
-						<div className="wrap">
-							<Twocol>
-								<ProgBar />
-							</Twocol> 					
-							<Twocol>
-								<ProgBar />
-							</Twocol>
-						</div> 					
-						<SSRProvider><Taber /></SSRProvider>
+						<ProgBar />
+						<ProgBar />					
+						<SSRProvider><Aba /></SSRProvider>
 						<ExampleCanvas />
 				</Container>	   
 		</main>
