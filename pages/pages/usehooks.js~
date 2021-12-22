@@ -8,8 +8,9 @@ import Forms from '../components/forms'
 import FavoriteColor from '../components/FavoriteColor'
 import DefCar from '../components/DefCar'
 import Cronometro from '../components/Cronometro'
+import { Pessoas } from '../components/UsesReducer'
 import { CompartilhandoEstado1, ComponentOne } from '../components/CompartilhandoEstado'
-import { UseSemCallback } from '../components/UsesCallback'
+import { UseSemCallback, UseComCallback } from '../components/UsesCallback'
 
 
 export default function Usehooks(){
@@ -33,8 +34,10 @@ export default function Usehooks(){
 						<CompartilhandoEstado1 />
 						<h3>Com useContext:</h3>						
 						<ComponentOne />												
+						<h3>Sem useCallback:</h3>						
+						<UseSemCallback />	
 						<h3>Com useCallback:</h3>						
-						<UsesCallback />	
+						<UseComCallback />							
 					</Container>
 				</main>
 			</>
