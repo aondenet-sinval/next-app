@@ -8,6 +8,8 @@ import Forms from '../components/forms'
 import FavoriteColor from '../components/FavoriteColor'
 import DefCar from '../components/DefCar'
 import Cronometro from '../components/Cronometro'
+import { CompartilhandoEstado1, ComponentOne } from '../components/CompartilhandoEstado'
+import { UseSemCallback, UseComCallback } from '../components/UsesCallback'
 
 
 export default function Usehooks(){
@@ -26,7 +28,15 @@ export default function Usehooks(){
 						<h3>useForm com React-Hook-Form:</h3>
 						<Forms />
 						<h3>useEffect:</h3>
-						<Cronometro />												
+						<Cronometro />	
+						<h3>Sem useContext:</h3>
+						<CompartilhandoEstado1 />
+						<h3>Com useContext:</h3>						
+						<ComponentOne />												
+						<h3>Sem useCallback:</h3>						
+						<UseSemCallback />	
+						<h3>Com useCallback:</h3>						
+						<UseComCallback />							
 					</Container>
 				</main>
 			</>

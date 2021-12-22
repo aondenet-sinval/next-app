@@ -6,20 +6,20 @@ export default function DefCar() {
     brand: "Ford",
     model: "Mustang",
     year: "1964",
-    color: "red"
+    color: "vermelho"
   });
 
   const updateColor = () => {
     setCar(previousState => {
-      return { ...previousState, color: "blue" }
+      return { ...previousState, color: "azul" }
     });
   }
 
   return (
     <>
-      <h1>My {car.brand}</h1>
+      <h3>Meu {car.brand}</h3>
       <p>
-        It is a {car.color} {car.model} from {car.year}.
+        Este &eacute; um {car.color} {car.model} de {car.year}.
       </p>
       <button
         type="button"

@@ -6,7 +6,7 @@ function Counter() {
     const [count, setCount] = useState(initialCount);
 
     useEffect(() => { 
-    document.title = `Você clicou ${count} vezes`;  });
+    document.title = `Você clicou ${count} vezes na função useState`;  });
     return (
       <div> 
         <p>Você clickou <span className="badge bg-primary">{count}</span> vezes</p>
@@ -14,7 +14,7 @@ function Counter() {
         <button onClick={()=>setCount(count+1)}>Adicionar</button>
         <button onClick={()=>setCount(count-1)}>Remover</button>
       </div>
-    );
+    );e
   }
 
 export default Counter;
