@@ -39,7 +39,7 @@ const reducer = (state, action) => {
   }
 };
 
-export function Pessoas() {
+export default function Pessoas() {
   const [todos, dispatch] = useReducer(reducer, initialPessoas);
 
   const handleComplete = (todo) => {

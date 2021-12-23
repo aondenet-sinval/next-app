@@ -77,7 +77,7 @@ export const UseComCallback = () => {
 
   return (
     <>
-      <TodosCom todoscom={todoscom} addTodoCom={addTodocom} />
+      <TodosCom todoscom={todoscom} addTodoCom={addTodoCom} />
       <hr />
       <div>
         Count: {count}

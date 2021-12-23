@@ -4,37 +4,37 @@ import ReactDOM from "react-dom";
 {/*A função abaixo preferencialmente deveria ser escrita num componente separado e importada
 Decidi fazer o contrário por ser apenas didático:
 */}
-
-
-const TodosSem = ({ todos, addTodoSem }) => {
+const TodosCom = ({ todoscom, addTodoCom }) => {
   console.log("child render");
   return (
     <>
       <h2>My Todos</h2>
-      {todos.map((todo, index) => {
+      {todoscom.map((todo, index) => {
         return <p key={index}>{todo}</p>;
       })}
-      <button onClick={addTodoSem}>Add Todo</button>
+      <button onClick={addTodoCom}>Add Todo</button>
     </>
   );
 };
 
-memo(TodosSem);
+memo(TodosCom);
 
-export default function UseSemCallback(){
+{/*Aplicando useCallback abaixo*/}
+
+export default function UsesComCallback(){
   const [count, setCount] = useState(0);
-  const [todos, setTodos] = useState([]);
+  const [todoscom, setTodos] = useState([]);
 
-const increment = () => {
+  const increment = () => {
     setCount((c) => c + 1);
   };
-  const addTodo = () => {
+  const addTodoCom = useCallback(() => {
     setTodos((t) => [...t, "New Todo"]);
-  };
+  }, [todoscom]);
 
   return (
     <>
-      <TodosSem todos={todos} addTodo={addTodo} />
+      <TodosCom todoscom={todoscom} addTodoCom={addTodoCom} />
       <hr />
       <div>
         Count: {count}
@@ -43,3 +43,4 @@ const increment = () => {
     </>
   );
 };
+
