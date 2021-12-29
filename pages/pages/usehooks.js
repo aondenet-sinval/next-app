@@ -13,6 +13,7 @@ import CompartilhandoEstado1 from '../components/CompartilhandoEstado'
 import ComponentOne from '../components/CompartilhandoEstadoDois'
 import UseSemCallback from '../components/UsesCallback'
 import UsesComCallback from '../components/UsesComCallback'
+import UsarMemo from '../components/UsarMemo'
 
 
 export default function Usehooks(){
@@ -41,7 +42,9 @@ export default function Usehooks(){
 						<h3>Com useCallback:</h3>						
 						<UsesComCallback />
 						<h3>Com useReducer:</h3>						
-						<Pessoas />													
+						<Pessoas />	
+						<h3>Com useMemo:</h3>						
+						<UsarMemo />																			
 					</Container>
 				</main>
 			</>

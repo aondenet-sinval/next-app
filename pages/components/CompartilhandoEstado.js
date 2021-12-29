@@ -16,7 +16,7 @@ export default function CompartilhandoEstado1() {
 function Component2({ user }) {
   return (
     <>
-      <h3>Component 2</h3>
+      <h3>Component Dois</h3>
       <Component3 user={user} />
     </>
   );
@@ -35,6 +35,9 @@ function Component4({ user }) {
     <>
       <h3>Component 4</h3>
       <Component5 user={user} />
+	  <h1>
+	  Valorizando o Vim...
+	  </h1>
     </>
   );
 }

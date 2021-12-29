@@ -39,7 +39,7 @@ export default function Usehooks(){
 						<h3>Sem useCallback:</h3>						
 						<UseSemCallback />	
 						<h3>Com useCallback:</h3>						
-						<UseComCallback />
+						<UsesComCallback />
 						<h3>Com useReducer:</h3>						
 						<Pessoas />													
 					</Container>

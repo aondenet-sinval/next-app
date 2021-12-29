@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import Link from 'next/link'
 import { useState, React } from 'react'
 import {
@@ -36,7 +35,6 @@ export default function ExampleCanvas() {
 							</h1>
 			        </Offcanvas.Body>
 			      </Offcanvas>
-		</>
+		        </>
 }
-
 

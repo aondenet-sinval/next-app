@@ -14,7 +14,6 @@ import { SSRProvider,
 	Container, Row, Col } from 'react-bootstrap/'
 
 
-
 export default function Home() {
   return (<>
       <Head> 
