@@ -1,7 +1,8 @@
-import { useState} from "react";
+import { useState } from "react";
 import ReactDOM from "react-dom";
 
-{/*Aqui está o exemplo completo sem usar React Context:*/}
+
+{/*Aqiui está o exemplo completo sem usar React Context:*/}
 export default function CompartilhandoEstado1() {
   const [user, setUser] = useState("Sinval Gomes");
 
@@ -21,6 +22,7 @@ function Component2({ user }) {
     </>
   );
 }
+
 
 function Component3({ user }) {
   return (

@@ -1,0 +1,24 @@
+import Script from 'next/script';
+
+const url = 'http://servicodados.ibge.gov.br/api/v3/noticias';
+fetch(url)
+.then(function(){
+
+})
+.catch(function(){
+	console.log('xi foi mau mano aqui')
+})
+function(){
+	return(t
+		<div>
+			Teste
+			agora
+	</div>
+<Script>
+
+    const ul = document.getElementById('authors');
+
+</Script>
+
+}
+
