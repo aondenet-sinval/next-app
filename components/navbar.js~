@@ -49,13 +49,6 @@ const NavigBar = () => {
 		          Hooks
 	          </a>	          
           </Link>      
-        </li>
-        <li className="nav-item">               
-          <Link href="/pages/notice">
-	          <a className="nav-link">
-		          Hooks
-	          </a>	          
-          </Link>      
         </li>                     
       </ul>
     </div>

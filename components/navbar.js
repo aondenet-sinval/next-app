@@ -29,13 +29,6 @@ const NavigBar = () => {
 	          </a>          
           </Link>
         </li>
-        <li className="nav-item">        
-          <Link href="/pages/artigos">
-	          <a className="nav-link">
-		          Artigos
-	          </a>	          
-          </Link>
-        </li>
         <li className="nav-item">               
           <Link href="/pages/contato">
 	          <a className="nav-link">
