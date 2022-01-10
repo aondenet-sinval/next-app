@@ -3,7 +3,7 @@
 }
 /*Navibar personalizada:*/
 .navigbar ul li{
-	display: none;
+	display: flex;
 }
 /*offcanvas menu*/
 .sidenav {
@@ -18,12 +18,19 @@
   padding-top: 60px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 }
-
+/*component resumotempo*/
+.tempo{
+	width: 300px;
+	background-color: greenyellow;
+	display: flex;
+	border-color: solid blueviolet;
+	padding: 15px;
+}
 /* The navigation menu links */
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
-  transition: margin-left .5s;
+  transition:  margin-left .5s;
   padding: 20px;
 }
 
@@ -32,3 +39,4 @@
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+

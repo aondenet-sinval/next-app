@@ -30,7 +30,7 @@ export default function Notice() {
   if (error) {
     return <div>Error: {error.message}</div>;
   } else if (!isLoaded) {
-    return <div>Um momento por favor ...</div>;
+    return <div>Um momento por favor. Estamos buscando as últimas notícias...</div>;
   } else {
     return (
       <div>

@@ -4,7 +4,8 @@ import Image from 'next/image'
 import React from 'react'
 import { Accordion, Item, Header,
 			Body, Toast, ToastHeader, ToastBody, Container } from 'react-bootstrap/';
-import Notice from '../components/notice.js'
+import ResumoTempo from '../components/resumotempo.js'
+{/*import Notice from '../components/notice.js'*/}
 
 export default function Artigos() {
 	return <>	 
@@ -13,34 +14,9 @@ export default function Artigos() {
 			      </Head>
 			      <main className="layout-mod container">
 				      <Container>
-							<Accordion defaultActiveKey="0">
-							  <Accordion.Item eventKey="0">
-							    <Accordion.Header>Accordion Item #1</Accordion.Header>
-							    <Accordion.Body>
-							      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-							      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-							      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-							      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-							      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-							      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-							      est laborum.
-							    </Accordion.Body>
-							  </Accordion.Item>
-							  <Accordion.Item eventKey="1">
-							    <Accordion.Header>Accordion Item #2</Accordion.Header>
-							    <Accordion.Body>
-							      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-							      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-							      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-							      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-							      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-							      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-							      est laborum.
-							    </Accordion.Body>
-							  </Accordion.Item>
-							</Accordion>
-							<h3>Buscando noticias no site do IBGE:</h3>
-							<Notice />
+							<h3>Noticias no site do IBGE:</h3>
+							<ResumoTempo />
+							{/*<Notice />*/}
 						</Container>			      
 			      </main>
 				</>

@@ -1,5 +1,7 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 
 export default function handler(req, res) {
-  res.status(200).json({ name: 'John Doe' })
+  res.status(200).json(
+{"estacao":{"UF":"MG","CODIGO":"A522","LONGITUDE":"-40.25","REGIAO":"SE","DISTANCIA_EM_KM":"121","NOME":"SERRA DOS AIMORES","LATITUDE":"-17.79888888","GEOCODE":"3166709"},"dados":{"DC_NOME":"SERRA DOS AIMORES","PRE_INS":"989.9","TEM_SEN":null,"VL_LATITUDE":"-17.79888888","PRE_MAX":"990.1","UF":"MG","RAD_GLO":"2808.376","PTO_INS":"18.1","TEM_MIN":"26.4","VL_LONGITUDE":"-40.25","UMD_MIN":"53","PTO_MAX":"20.7","VEN_DIR":null,"DT_MEDICAO":"2022-01-01","CHUVA":"0","PRE_MIN":"989.9","UMD_MAX":"66","VEN_VEL":null,"PTO_MIN":"18.1","TEM_MAX":"29.4","VEN_RAJ":null,"TEM_INS":"27.9","UMD_INS":"55","CD_ESTACAO":"A522","HR_MEDICAO":"1300"}}
+ )
 }
